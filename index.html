@@ -29,11 +29,12 @@
 <h3>
 <a id="json-output" class="anchor" href="#json-output" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JSON Output</h3>
 
-<p>Let's say I wanted to add three items with a base of carrot on a stick this is want the generator would output:</p>
+<p>Let's say I wanted to add three items with a base of carrot on a stick this is want the generator would output:
+models/items/carrot_on_a_stick:</p>
 
 <pre><code>{
  "parent": "item/handheld_rod",
-    "textures": {
+    "textures": {items/carrot_on_a_stick"
         "layer0": "items/carrot_on_a_stick"
     },
     "overrides": [
@@ -45,6 +46,8 @@
 </code></pre>
 
 <p>and would create three files in the following format:</p>
+
+<p>models/item/carrot_on_a_stick_1:</p>
 
 <pre><code>{
     "parent": "item/generated",
